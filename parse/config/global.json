@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "Pixster": {
+      "applicationId": "AIXmuxjz4MQPvV02bXvEIdb4AKuuUZzjMLgTTRz1",
+      "masterKey": "dJiQLZkDVeWhlwsR1ERmIrVTopBvXRhGlRDciISM"
+    },
+    "_default": {
+      "link": "Pixster"
+    }
+  }
+}

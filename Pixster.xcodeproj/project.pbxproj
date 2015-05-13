@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A3B1403BF908A096E7B419 /* libPods-Pixster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB6B279A61292EA8B32A265 /* libPods-Pixster.a */; };
+		7F2E6E661ADEEC070044ABD0 /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E5F1ADEEC070044ABD0 /* CommentsTableViewController.swift */; };
+		7F2E6E671ADEEC070044ABD0 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E601ADEEC070044ABD0 /* CommentTableViewCell.swift */; };
+		7F2E6E681ADEEC070044ABD0 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E611ADEEC070044ABD0 /* CustomTableViewController.swift */; };
+		7F2E6E691ADEEC070044ABD0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E621ADEEC070044ABD0 /* DetailViewController.swift */; };
+		7F2E6E6A1ADEEC070044ABD0 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E631ADEEC070044ABD0 /* PostViewController.swift */; };
+		7F2E6E6B1ADEEC070044ABD0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E641ADEEC070044ABD0 /* TableViewCell.swift */; };
+		7F2E6E6C1ADEEC070044ABD0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E651ADEEC070044ABD0 /* TableViewController.swift */; };
+		7F2E6E6E1ADEEC4A0044ABD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2E6E6D1ADEEC4A0044ABD0 /* Main.storyboard */; };
+		7F2E6E781ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E711ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.m */; };
+		7F2E6E791ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E731ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.m */; };
+		7F2E6E7A1ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E751ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.m */; };
+		7F2E6E7B1ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E6E771ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		7F822D801AED474200B1716D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F822D7F1AED474200B1716D /* CoreLocation.framework */; };
+		7F98DAE01AE85D580072FA31 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98DADE1AE85D580072FA31 /* Crashlytics.framework */; };
+		7F98DAE11AE85D580072FA31 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F98DADF1AE85D580072FA31 /* Fabric.framework */; };
+		7F9C578E1AE7435A00C5D6F4 /* PixsterConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9C578D1AE7435A00C5D6F4 /* PixsterConfigManager.swift */; };
+		7F9C57901AE7439200C5D6F4 /* PixsterConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F9C578F1AE7439200C5D6F4 /* PixsterConfig.plist */; };
+		7FCF454E1ADEFA440035168E /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF454D1ADEFA440035168E /* SweetAlert.swift */; };
+		7FE6959A1ADEDB270059DAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE695991ADEDB270059DAED /* AppDelegate.swift */; };
+		7FE6959C1ADEDB270059DAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE6959B1ADEDB270059DAED /* ViewController.swift */; };
+		7FE695A11ADEDB270059DAED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE695A01ADEDB270059DAED /* Images.xcassets */; };
+		7FE695A41ADEDB270059DAED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE695A21ADEDB270059DAED /* LaunchScreen.xib */; };
+		7FE695B01ADEDB270059DAED /* PixsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE695AF1ADEDB270059DAED /* PixsterTests.swift */; };
+		7FE913C81AE2A0EF003AA154 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913C71AE2A0EF003AA154 /* AudioToolbox.framework */; };
+		7FE913CA1AE2A0F6003AA154 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913C91AE2A0F6003AA154 /* CFNetwork.framework */; };
+		7FE913CC1AE2A0FB003AA154 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913CB1AE2A0FB003AA154 /* CoreGraphics.framework */; };
+		7FE913CE1AE2A100003AA154 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913CD1AE2A100003AA154 /* MobileCoreServices.framework */; };
+		7FE913D01AE2A105003AA154 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913CF1AE2A105003AA154 /* QuartzCore.framework */; };
+		7FE913D21AE2A10B003AA154 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913D11AE2A10B003AA154 /* Security.framework */; };
+		7FE913D41AE2A110003AA154 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913D31AE2A110003AA154 /* StoreKit.framework */; };
+		7FE913D61AE2A115003AA154 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913D51AE2A115003AA154 /* SystemConfiguration.framework */; };
+		7FE913D81AE2A11E003AA154 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913D71AE2A11E003AA154 /* libstdc++.6.dylib */; };
+		7FE913DA1AE2A126003AA154 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913D91AE2A126003AA154 /* libz.dylib */; };
+		7FE913DC1AE2A133003AA154 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE913DB1AE2A133003AA154 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FE695AA1ADEDB270059DAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FE6958C1ADEDB270059DAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE695931ADEDB270059DAED;
+			remoteInfo = Pixster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB6B279A61292EA8B32A265 /* libPods-Pixster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pixster.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2E6E5A1ADEEA3A0044ABD0 /* Pixster-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pixster-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F2E6E5F1ADEEC070044ABD0 /* CommentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CommentsTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F2E6E601ADEEC070044ABD0 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		7F2E6E611ADEEC070044ABD0 /* CustomTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		7F2E6E621ADEEC070044ABD0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F2E6E631ADEEC070044ABD0 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7F2E6E641ADEEC070044ABD0 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7F2E6E651ADEEC070044ABD0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = TableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7F2E6E6D1ADEEC4A0044ABD0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2E6E701ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		7F2E6E711ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		7F2E6E721ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		7F2E6E731ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		7F2E6E741ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		7F2E6E751ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		7F2E6E761ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		7F2E6E771ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		7F822D7F1AED474200B1716D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F98DADE1AE85D580072FA31 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		7F98DADF1AE85D580072FA31 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		7F9C578D1AE7435A00C5D6F4 /* PixsterConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PixsterConfigManager.swift; sourceTree = "<group>"; };
+		7F9C578F1AE7439200C5D6F4 /* PixsterConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PixsterConfig.plist; sourceTree = "<group>"; };
+		7FCF454D1ADEFA440035168E /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SweetAlert.swift; path = "SweetAlert-iOS-master/SweetAlert/SweetAlert.swift"; sourceTree = "<group>"; };
+		7FE695941ADEDB270059DAED /* Pixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE695981ADEDB270059DAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE695991ADEDB270059DAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FE6959B1ADEDB270059DAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FE695A01ADEDB270059DAED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FE695A31ADEDB270059DAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7FE695A91ADEDB270059DAED /* PixsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE695AE1ADEDB270059DAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FE695AF1ADEDB270059DAED /* PixsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixsterTests.swift; sourceTree = "<group>"; };
+		7FE913C71AE2A0EF003AA154 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7FE913C91AE2A0F6003AA154 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7FE913CB1AE2A0FB003AA154 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FE913CD1AE2A100003AA154 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7FE913CF1AE2A105003AA154 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FE913D11AE2A10B003AA154 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7FE913D31AE2A110003AA154 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7FE913D51AE2A115003AA154 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7FE913D71AE2A11E003AA154 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		7FE913D91AE2A126003AA154 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7FE913DB1AE2A133003AA154 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		B48A1057A17273DA91DA7515 /* Pods-Pixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pixster/Pods-Pixster.debug.xcconfig"; sourceTree = "<group>"; };
+		E73C7A75DF133A0E14F245B8 /* Pods-Pixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixster.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pixster/Pods-Pixster.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE695911ADEDB270059DAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE913DC1AE2A133003AA154 /* libsqlite3.dylib in Frameworks */,
+				7FE913DA1AE2A126003AA154 /* libz.dylib in Frameworks */,
+				7FE913D61AE2A115003AA154 /* SystemConfiguration.framework in Frameworks */,
+				7FE913D41AE2A110003AA154 /* StoreKit.framework in Frameworks */,
+				7FE913D21AE2A10B003AA154 /* Security.framework in Frameworks */,
+				7FE913D01AE2A105003AA154 /* QuartzCore.framework in Frameworks */,
+				7FE913CE1AE2A100003AA154 /* MobileCoreServices.framework in Frameworks */,
+				7F822D801AED474200B1716D /* CoreLocation.framework in Frameworks */,
+				7FE913CC1AE2A0FB003AA154 /* CoreGraphics.framework in Frameworks */,
+				7FE913CA1AE2A0F6003AA154 /* CFNetwork.framework in Frameworks */,
+				7FE913C81AE2A0EF003AA154 /* AudioToolbox.framework in Frameworks */,
+				7F98DAE01AE85D580072FA31 /* Crashlytics.framework in Frameworks */,
+				7FE913D81AE2A11E003AA154 /* libstdc++.6.dylib in Frameworks */,
+				7F98DAE11AE85D580072FA31 /* Fabric.framework in Frameworks */,
+				28A3B1403BF908A096E7B419 /* libPods-Pixster.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE695A61ADEDB270059DAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508B947887AC57E464767756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F822D7F1AED474200B1716D /* CoreLocation.framework */,
+				7FE913DB1AE2A133003AA154 /* libsqlite3.dylib */,
+				7FE913D91AE2A126003AA154 /* libz.dylib */,
+				7FE913D71AE2A11E003AA154 /* libstdc++.6.dylib */,
+				7FE913D51AE2A115003AA154 /* SystemConfiguration.framework */,
+				7FE913D31AE2A110003AA154 /* StoreKit.framework */,
+				7FE913D11AE2A10B003AA154 /* Security.framework */,
+				7FE913CF1AE2A105003AA154 /* QuartzCore.framework */,
+				7FE913CD1AE2A100003AA154 /* MobileCoreServices.framework */,
+				7FE913CB1AE2A0FB003AA154 /* CoreGraphics.framework */,
+				7FE913C91AE2A0F6003AA154 /* CFNetwork.framework */,
+				7FE913C71AE2A0EF003AA154 /* AudioToolbox.framework */,
+				1EB6B279A61292EA8B32A265 /* libPods-Pixster.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2E6E6F1ADEF32F0044ABD0 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				7F2E6E701ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.h */,
+				7F2E6E711ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.m */,
+				7F2E6E721ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.h */,
+				7F2E6E731ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.m */,
+				7F2E6E741ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.h */,
+				7F2E6E751ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.m */,
+				7F2E6E761ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				7F2E6E771ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		7FE6958B1ADEDB270059DAED = {
+			isa = PBXGroup;
+			children = (
+				7F98DADE1AE85D580072FA31 /* Crashlytics.framework */,
+				7F98DADF1AE85D580072FA31 /* Fabric.framework */,
+				7FE695961ADEDB270059DAED /* Pixster */,
+				7FE695AC1ADEDB270059DAED /* PixsterTests */,
+				7FE695951ADEDB270059DAED /* Products */,
+				890B961ABD45179A484FAC36 /* Pods */,
+				508B947887AC57E464767756 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE695951ADEDB270059DAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE695941ADEDB270059DAED /* Pixster.app */,
+				7FE695A91ADEDB270059DAED /* PixsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE695961ADEDB270059DAED /* Pixster */ = {
+			isa = PBXGroup;
+			children = (
+				7FE695991ADEDB270059DAED /* AppDelegate.swift */,
+				7FE6959B1ADEDB270059DAED /* ViewController.swift */,
+				7F2E6E6D1ADEEC4A0044ABD0 /* Main.storyboard */,
+				7FE695A21ADEDB270059DAED /* LaunchScreen.xib */,
+				7F2E6E651ADEEC070044ABD0 /* TableViewController.swift */,
+				7F2E6E641ADEEC070044ABD0 /* TableViewCell.swift */,
+				7F2E6E611ADEEC070044ABD0 /* CustomTableViewController.swift */,
+				7F2E6E631ADEEC070044ABD0 /* PostViewController.swift */,
+				7F2E6E621ADEEC070044ABD0 /* DetailViewController.swift */,
+				7F2E6E5F1ADEEC070044ABD0 /* CommentsTableViewController.swift */,
+				7F2E6E601ADEEC070044ABD0 /* CommentTableViewCell.swift */,
+				7FCF454D1ADEFA440035168E /* SweetAlert.swift */,
+				7FE695A01ADEDB270059DAED /* Images.xcassets */,
+				7F2E6E5A1ADEEA3A0044ABD0 /* Pixster-Bridging-Header.h */,
+				7F2E6E6F1ADEF32F0044ABD0 /* TPKeyboardAvoiding */,
+				7FE695971ADEDB270059DAED /* Supporting Files */,
+				7F9C578D1AE7435A00C5D6F4 /* PixsterConfigManager.swift */,
+				7F9C578F1AE7439200C5D6F4 /* PixsterConfig.plist */,
+			);
+			path = Pixster;
+			sourceTree = "<group>";
+		};
+		7FE695971ADEDB270059DAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE695981ADEDB270059DAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FE695AC1ADEDB270059DAED /* PixsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FE695AF1ADEDB270059DAED /* PixsterTests.swift */,
+				7FE695AD1ADEDB270059DAED /* Supporting Files */,
+			);
+			path = PixsterTests;
+			sourceTree = "<group>";
+		};
+		7FE695AD1ADEDB270059DAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE695AE1ADEDB270059DAED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		890B961ABD45179A484FAC36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B48A1057A17273DA91DA7515 /* Pods-Pixster.debug.xcconfig */,
+				E73C7A75DF133A0E14F245B8 /* Pods-Pixster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE695931ADEDB270059DAED /* Pixster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE695B31ADEDB270059DAED /* Build configuration list for PBXNativeTarget "Pixster" */;
+			buildPhases = (
+				1DA3928ED8A41E56B2D8AEBA /* Check Pods Manifest.lock */,
+				7FE695901ADEDB270059DAED /* Sources */,
+				7FE695911ADEDB270059DAED /* Frameworks */,
+				7FE695921ADEDB270059DAED /* Resources */,
+				D323F4D21C63B9A13577AA5A /* Copy Pods Resources */,
+				7F9C57911AE85C0B00C5D6F4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixster;
+			productName = Pixster;
+			productReference = 7FE695941ADEDB270059DAED /* Pixster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FE695A81ADEDB270059DAED /* PixsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE695B61ADEDB270059DAED /* Build configuration list for PBXNativeTarget "PixsterTests" */;
+			buildPhases = (
+				7FE695A51ADEDB270059DAED /* Sources */,
+				7FE695A61ADEDB270059DAED /* Frameworks */,
+				7FE695A71ADEDB270059DAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FE695AB1ADEDB270059DAED /* PBXTargetDependency */,
+			);
+			name = PixsterTests;
+			productName = PixsterTests;
+			productReference = 7FE695A91ADEDB270059DAED /* PixsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE6958C1ADEDB270059DAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Aldrin Clement";
+				TargetAttributes = {
+					7FE695931ADEDB270059DAED = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = N4J484DP9H;
+					};
+					7FE695A81ADEDB270059DAED = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7FE695931ADEDB270059DAED;
+					};
+				};
+			};
+			buildConfigurationList = 7FE6958F1ADEDB270059DAED /* Build configuration list for PBXProject "Pixster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FE6958B1ADEDB270059DAED;
+			productRefGroup = 7FE695951ADEDB270059DAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE695931ADEDB270059DAED /* Pixster */,
+				7FE695A81ADEDB270059DAED /* PixsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE695921ADEDB270059DAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2E6E6E1ADEEC4A0044ABD0 /* Main.storyboard in Resources */,
+				7FE695A41ADEDB270059DAED /* LaunchScreen.xib in Resources */,
+				7F9C57901AE7439200C5D6F4 /* PixsterConfig.plist in Resources */,
+				7FE695A11ADEDB270059DAED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE695A71ADEDB270059DAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DA3928ED8A41E56B2D8AEBA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F9C57911AE85C0B00C5D6F4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 9793452b855706ffaffd9e9330e61ac523543a9e 842355ff0548d6939d83b3558a9cb535482381e0030944e97c69f36a43ebd54d";
+		};
+		D323F4D21C63B9A13577AA5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pixster/Pods-Pixster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE695901ADEDB270059DAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F2E6E781ADEF32F0044ABD0 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				7FE6959C1ADEDB270059DAED /* ViewController.swift in Sources */,
+				7F2E6E6B1ADEEC070044ABD0 /* TableViewCell.swift in Sources */,
+				7F2E6E7B1ADEF32F0044ABD0 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				7FE6959A1ADEDB270059DAED /* AppDelegate.swift in Sources */,
+				7FCF454E1ADEFA440035168E /* SweetAlert.swift in Sources */,
+				7F2E6E6A1ADEEC070044ABD0 /* PostViewController.swift in Sources */,
+				7F2E6E791ADEF32F0044ABD0 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				7F2E6E661ADEEC070044ABD0 /* CommentsTableViewController.swift in Sources */,
+				7F2E6E691ADEEC070044ABD0 /* DetailViewController.swift in Sources */,
+				7F2E6E671ADEEC070044ABD0 /* CommentTableViewCell.swift in Sources */,
+				7F2E6E7A1ADEF32F0044ABD0 /* TPKeyboardAvoidingTableView.m in Sources */,
+				7F2E6E6C1ADEEC070044ABD0 /* TableViewController.swift in Sources */,
+				7F9C578E1AE7435A00C5D6F4 /* PixsterConfigManager.swift in Sources */,
+				7F2E6E681ADEEC070044ABD0 /* CustomTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE695A51ADEDB270059DAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE695B01ADEDB270059DAED /* PixsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FE695AB1ADEDB270059DAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FE695931ADEDB270059DAED /* Pixster */;
+			targetProxy = 7FE695AA1ADEDB270059DAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FE695A21ADEDB270059DAED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE695A31ADEDB270059DAED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE695B11ADEDB270059DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FE695B21ADEDB270059DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE695B41ADEDB270059DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48A1057A17273DA91DA7515 /* Pods-Pixster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Pixster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pixster/Pixster-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FE695B51ADEDB270059DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73C7A75DF133A0E14F245B8 /* Pods-Pixster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Pixster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pixster/Pixster-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7FE695B71ADEDB270059DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PixsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixster.app/Pixster";
+			};
+			name = Debug;
+		};
+		7FE695B81ADEDB270059DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PixsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixster.app/Pixster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE6958F1ADEDB270059DAED /* Build configuration list for PBXProject "Pixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE695B11ADEDB270059DAED /* Debug */,
+				7FE695B21ADEDB270059DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE695B31ADEDB270059DAED /* Build configuration list for PBXNativeTarget "Pixster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE695B41ADEDB270059DAED /* Debug */,
+				7FE695B51ADEDB270059DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE695B61ADEDB270059DAED /* Build configuration list for PBXNativeTarget "PixsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE695B71ADEDB270059DAED /* Debug */,
+				7FE695B81ADEDB270059DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE6958C1ADEDB270059DAED /* Project object */;
+}
